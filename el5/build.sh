@@ -25,3 +25,5 @@ rpmbuild -bb collectd-5.5.0/contrib/redhat/collectd.spec
 # Copy RPMs back to the host
 cp -rv /usr/src/redhat/RPMS/ /vagrant
 
+# Create the repository
+createrepo /vagrant/RPMS/
