@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install tools required to build the rpms
-yum install -y rpm-build yum-utils rpmdevtools epel-release
+yum install -y rpm-build yum-utils rpmdevtools epel-release createrepo
 
 # Go to /tmp to get and extract collectd source base
 cd /tmp

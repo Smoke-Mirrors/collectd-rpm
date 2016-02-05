@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install tools required to build the rpms
-yum install -y rpm-build yum-utils rpmdevtools
+yum install -y rpm-build yum-utils rpmdevtools createrepo
 
 # Install EPEL
 rpm -ivh http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm
